@@ -5,7 +5,7 @@
 }
 
 :root {
-  --color-131921: #131921;
+  --color-131921: 131921;
 }
 
 body {
@@ -19,5 +19,5 @@ a {
 
 /* Header Part */
 .header-top-strip {
-  background-color: var(--color-131921);
+  background-color: var(--);
 }
