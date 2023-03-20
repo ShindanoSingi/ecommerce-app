@@ -24,13 +24,6 @@ a {
   border-color: inherit;
 }
 
-.gap-10 {
-  gap: 10px;
-}
-.gap-15 {
-  gap: 15px;
-}
-
 /* Header Part */
 .header-top-strip {
   border-bottom: 1px solid var(--color-3b4149);
@@ -46,6 +39,5 @@ a {
 }
 
 .header-upper.header-upper-links img {
-  height: 35px;
-  width: 35px;
+  height, width: 35px;
 }

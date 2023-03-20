@@ -45,33 +45,34 @@ function Header() {
                               </div>
                               <div className="col-5">
                                    <div className="header-upper-links d-flex align-items-center justify-content-between">
-                                        <div>
-                                             <Link className='d-flex align-items-center gap-10 text-white'>
-                                                  <img src="/images/compare.svg" alt="compare" />
-                                                  <p>Compare <br /> Product </p>
-                                             </Link>
-                                        </div>
-                                        <div>
-                                             <Link className='d-flex align-items-center gap-10 text-white'>
-                                                  <img src="/images/wishlist.svg" alt="wishlist" />
-                                                  <p>Favorite <br /> Wishlist </p>
-                                             </Link>
-                                        </div>
-                                        <div>
-                                             <Link className='d-flex align-items-center gap-10 text-white'>
-                                                  <img src="/images/user.svg" alt="user" />
-                                                  <p>Log in <br /> My Account </p>
-                                             </Link>
-                                        </div>
-                                        <div>
-                                             <Link className='d-flex align-items-center gap-10 text-white'>
-                                                  <img src="/images/cart.svg" alt="cart" />
-                                                  <div className='d-flex flex-column'>
-                                                       <span className="badge bg-white text-dark">0</span>
-                                                       <p>$500</p>
-                                                  </div>
-                                             </Link>
-                                        </div>
+                                   </div>
+                                   <div>
+                                        <Link>
+                                             <img src="images/compare.svg" alt="compare" />
+                                             <p>Compare <br />Products  </p>
+                                        </Link>
+                                   </div>
+                                   <div>
+                                        <Link>
+                                             <img src="images/wishlist.svg" alt="wishlist" />
+                                             <p>Favorite <br />Wishlist  </p>
+                                        </Link>
+                                   </div>
+                                   <div>
+                                        <Link>
+                                             <img src="images/user.svg" alt="user" />
+                                             <p>
+                                                  Login <br />My Account
+                                             </p>
+                                        </Link>
+                                   </div>
+                                   <div>
+                                        <Link>
+                                             <img src="images/cart.svg" alt="cart" />
+                                             <div className='d-flex flex-column'>
+                                                  <span className='badge badge-warning'>0</span>
+                                             </div>
+                                        </Link>
                                    </div>
                               </div>
                          </div>
