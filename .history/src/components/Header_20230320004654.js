@@ -25,23 +25,10 @@ function Header() {
                          <div className="row">
                               <div className="col-2">
                                    <h2>
-                                        <Link className='text-white'>Soft Dev</Link>
+                                        <Link className='text-white'>Ndanos Store</Link>
                                    </h2>
                               </div>
-                              <div className="col-5">
-                                   <div class="input-group mb-3">
-
-
-                                        <input
-                                             type="text"
-                                             class="form-control"
-                                             placeholder="Search Product Here..."
-                                             aria-label="Search Product Here..."
-                                             aria-describedby="basic-addon2"
-                                        />
-                                        <span class="input-group-text" id="basic-addon2">@example.com</span>
-                                   </div>
-                              </div>
+                              <div className="col-5">dsdsds</div>
                               <div className="col-5">sdsdsdsds</div>
                          </div>
                     </div>

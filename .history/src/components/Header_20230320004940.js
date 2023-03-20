@@ -30,16 +30,8 @@ function Header() {
                               </div>
                               <div className="col-5">
                                    <div class="input-group mb-3">
-
-
-                                        <input
-                                             type="text"
-                                             class="form-control"
-                                             placeholder="Search Product Here..."
-                                             aria-label="Search Product Here..."
-                                             aria-describedby="basic-addon2"
-                                        />
-                                        <span class="input-group-text" id="basic-addon2">@example.com</span>
+                                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                             <span class="input-group-text" id="basic-addon2">@example.com</span>
                                    </div>
                               </div>
                               <div className="col-5">sdsdsdsds</div>

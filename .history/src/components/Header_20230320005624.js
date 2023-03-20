@@ -35,8 +35,8 @@ function Header() {
                                         <input
                                              type="text"
                                              class="form-control"
-                                             placeholder="Search Product Here..."
-                                             aria-label="Search Product Here..."
+                                             placeholder="Search Product Here"
+                                             aria-label="Search Product Here"
                                              aria-describedby="basic-addon2"
                                         />
                                         <span class="input-group-text" id="basic-addon2">@example.com</span>
