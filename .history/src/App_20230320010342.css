@@ -19,11 +19,6 @@ a {
   display: inline-block;
 }
 
-.form-control:focus {
-  box-shadow: none;
-  border-color: inherit;
-}
-
 /* Header Part */
 .header-top-strip {
   border-bottom: 1px solid var(--color-3b4149);
@@ -34,6 +29,6 @@ a {
   background-color: var(--color-131921);
 }
 
-.header-upper .input-group-text {
-  background-color: var(--color-febd69);
+.header-upper .inputs-group-text{
+  bg
 }

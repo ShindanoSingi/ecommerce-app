@@ -48,25 +48,21 @@ function Header() {
                                    </div>
                                    <div>
                                         <Link>
-                                             <img src="" alt="" />
                                              <p></p>
                                         </Link>
                                    </div>
                                    <div>
                                         <Link>
-                                             <img src="" alt="" />
                                              <p></p>
                                         </Link>
                                    </div>
                                    <div>
                                         <Link>
-                                             <img src="" alt="" />
                                              <p></p>
                                         </Link>
                                    </div>
                                    <div>
                                         <Link>
-                                             <img src="" alt="" />
                                              <p></p>
                                         </Link>
                                    </div>

@@ -44,31 +44,8 @@ function Header() {
                                    </div>
                               </div>
                               <div className="col-5">
-                                   <div className="header-upper-links d-flex align-items-center justify-content-between">
-                                   </div>
-                                   <div>
-                                        <Link>
-                                             <img src="" alt="" />
-                                             <p></p>
-                                        </Link>
-                                   </div>
-                                   <div>
-                                        <Link>
-                                             <img src="" alt="" />
-                                             <p></p>
-                                        </Link>
-                                   </div>
-                                   <div>
-                                        <Link>
-                                             <img src="" alt="" />
-                                             <p></p>
-                                        </Link>
-                                   </div>
-                                   <div>
-                                        <Link>
-                                             <img src="" alt="" />
-                                             <p></p>
-                                        </Link>
+                                   <div className="header-upper-links d-flex ali">
+
                                    </div>
                               </div>
                          </div>
