@@ -69,22 +69,10 @@ a {
   text-transform: uppercase;
 }
 
-.header-bottom .dropdown button:focus {
+.header-bottom .dropdown button::before {
   box-shadow: none;
 }
 
-.header-bottom .dropdown-menu {
-  background-color: var(--color-131921);
-  width: 100%;
-  transform: translate3d(0px, 57px, 0px) !important;
-}
-
-.header-bottom .dropdown-item:hover {
-  padding: 20px;
-  margin-bottom: 3px;
-  border-bottom: 1px solid 
-}
-
-.header-bottom .dropdown-item:hover {
-  background-color: transparent;
+.header-bottom .dropdown button:focus {
+  contain:url('../public/images/menu.svg')
 }

@@ -80,11 +80,5 @@ a {
 }
 
 .header-bottom .dropdown-item:hover {
-  padding: 20px;
-  margin-bottom: 3px;
-  border-bottom: 1px solid 
-}
-
-.header-bottom .dropdown-item:hover {
   background-color: transparent;
 }

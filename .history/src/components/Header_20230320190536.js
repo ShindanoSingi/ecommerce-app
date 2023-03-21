@@ -85,17 +85,13 @@ function Header() {
                                    <div className="menu-bottom d-flex align-items-center gap-30">
                                         <div>
                                              <div class="dropdown">
-                                                  <button
-                                                       className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
-                                                       type="button"
-                                                       id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                                       aria-expanded="false">
-                                                       <img src="images/menu.svg" alt="menu" /> <span className='me-5 d-inline-block'>Show Categories</span>
+                                                  <button class="btn btn-secondary dropdown-toggle bg-transparent border-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                       Show Categories
                                                   </button>
                                                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                       <li><Link className="dropdown-item text-white" to="#">Action</Link></li>
-                                                       <li><Link className="dropdown-item text-white" to="#">Another action</Link></li>
-                                                       <li><Link className="dropdown-item text-white" to="#">Something else here</Link></li>
+                                                       <li><a class="dropdown-item" href="#">Action</a></li>
+                                                       <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                                                   </ul>
                                              </div>
                                         </div>

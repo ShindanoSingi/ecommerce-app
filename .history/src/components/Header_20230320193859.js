@@ -90,12 +90,12 @@ function Header() {
                                                        type="button"
                                                        id="dropdownMenuButton1" data-bs-toggle="dropdown"
                                                        aria-expanded="false">
-                                                       <img src="images/menu.svg" alt="menu" /> <span className='me-5 d-inline-block'>Show Categories</span>
+                                                       <img src="images/menu.svg" alt="menu" /> <spa>Show Categories</spa>
                                                   </button>
                                                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                       <li><Link className="dropdown-item text-white" to="#">Action</Link></li>
-                                                       <li><Link className="dropdown-item text-white" to="#">Another action</Link></li>
-                                                       <li><Link className="dropdown-item text-white" to="#">Something else here</Link></li>
+                                                       <li><a className="dropdown-item" href="#">Action</a></li>
+                                                       <li><a className="dropdown-item" href="#">Another action</a></li>
+                                                       <li><a className="dropdown-item" href="#">Something else here</a></li>
                                                   </ul>
                                              </div>
                                         </div>

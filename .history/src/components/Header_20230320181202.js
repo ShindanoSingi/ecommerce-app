@@ -48,27 +48,27 @@ function Header() {
                                         <div>
                                              <Link className='d-flex align-items-center gap-10 text-white'>
                                                   <img src="/images/compare.svg" alt="compare" />
-                                                  <p className='mb-0'>Compare <br /> Product </p>
+                                                  <p>Compare <br /> Product </p>
                                              </Link>
                                         </div>
                                         <div>
                                              <Link className='d-flex align-items-center gap-10 text-white'>
                                                   <img src="/images/wishlist.svg" alt="wishlist" />
-                                                  <p className='mb-0'>Favorite <br /> Wishlist </p>
+                                                  <p>Favorite <br /> Wishlist </p>
                                              </Link>
                                         </div>
                                         <div>
                                              <Link className='d-flex align-items-center gap-10 text-white'>
                                                   <img src="/images/user.svg" alt="user" />
-                                                  <p className='mb-0'>Log in <br /> My Account </p>
+                                                  <p>Log in <br /> My Account </p>
                                              </Link>
                                         </div>
                                         <div>
                                              <Link className='d-flex align-items-center gap-10 text-white'>
                                                   <img src="/images/cart.svg" alt="cart" />
-                                                  <div className='d-flex flex-column gap-10'>
+                                                  <div className='d-flex flex-column'>
                                                        <span className="badge bg-white text-dark">0</span>
-                                                       <p className='mb-0'>$ 500</p>
+                                                       <p className='mb-0'>$500</p>
                                                   </div>
                                              </Link>
                                         </div>
@@ -77,40 +77,6 @@ function Header() {
                          </div>
                     </div>
 
-               </header>
-               <header className="header-bottom py-3">
-                    <div className="container-xxl">
-                         <div className="row">
-                              <div className="col-12">
-                                   <div className="menu-bottom d-flex align-items-center gap-30">
-                                        <div>
-                                             <div class="dropdown">
-                                                  <button
-                                                       className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
-                                                       type="button"
-                                                       id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                                       aria-expanded="false">
-                                                       <img src="images/menu.svg" alt="menu" /> <span className='me-5 d-inline-block'>Show Categories</span>
-                                                  </button>
-                                                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                       <li><Link className="dropdown-item text-white" to="#">Action</Link></li>
-                                                       <li><Link className="dropdown-item text-white" to="#">Another action</Link></li>
-                                                       <li><Link className="dropdown-item text-white" to="#">Something else here</Link></li>
-                                                  </ul>
-                                             </div>
-                                        </div>
-                                        <div className="menu-links">
-                                             <div className="d-flex align-items-center gap-15">
-                                                  <NavLink to='/'>Home</NavLink>
-                                                  <NavLink to='/'>Our Store</NavLink>
-                                                  <NavLink to='/'>Blogs</NavLink>
-                                                  <NavLink to='/contact'>Contact</NavLink>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
                </header>
           </>
      )
