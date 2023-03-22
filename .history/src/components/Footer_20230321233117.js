@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container-xxl">
           <div className="row">
             <div class="col-12">
-              <p className="text-center mb-0 text-white">
+              <p className="text-center">
                 &copy; {new Date().getFullYear()} Powered by SoftDev
               </p>
             </div>

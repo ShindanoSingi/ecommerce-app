@@ -93,12 +93,3 @@ a {
 /* Header ends here */
 
 /* Footer starts here */
-footer {
-  background-color: var(--color-232f3e);
-}
-
-footer:nth-child(3) {
-  border-top: 1px solid 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Footer part vends here */
