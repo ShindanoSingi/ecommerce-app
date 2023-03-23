@@ -43,13 +43,13 @@ const Footer = () => {
                 </address>
                 <a
                   href="Cel Phone: +1 (345) 567-2343"
-                  className="mt-2 d-block mb-2 text-white"
+                  className="mt-3 d-block mb-2 text-white"
                 >
                   +1 (345) 567-2343
                 </a>
                 <a
                   href="mailto:shuerdhsa234@gmail.com"
-                  className="mt-2 d-block mb-2 text-white"
+                  className="mt-3 d-block mb-2 text-white"
                 >
                   shuerdhsa234@gmail.com
                 </a>

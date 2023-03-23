@@ -104,7 +104,7 @@ footer:not(:first-child) {
 footer .input-group-text {
   background-color: var(--color-232f3e);
   color: white;
-  padding: 8px 17px;
+  padding: 10px;
 }
 
-/* Footer part ends here */
+/* Footer part vends here */

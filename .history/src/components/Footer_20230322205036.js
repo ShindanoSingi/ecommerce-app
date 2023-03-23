@@ -49,7 +49,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="mailto:shuerdhsa234@gmail.com"
-                  className="mt-2 d-block mb-2 text-white"
+                  className="mt-3 d-block mb-2 text-white"
                 >
                   shuerdhsa234@gmail.com
                 </a>
