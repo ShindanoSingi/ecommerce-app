@@ -179,12 +179,8 @@ footer .input-group-text {
 
 .small-banner-content p {
   font-size: 14px;
-  line-height: 22px;
+  line-height: 28px;
   letter-spacing: 0.4;
   color: var(--color-131921);
-}
-
-.small-banner {
-  width: 49%;
 }
 /* Home Page Ends */ ;

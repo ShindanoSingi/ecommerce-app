@@ -8,7 +8,7 @@ const Home = () => {
         <div class="container-xxl">
           <div class="row">
             <div class="col-6">
-              <div class="main-banner position-relative">
+              <div class="main-banner position-relative  p-3">
                 <img
                   src="images/main-banner-1.jpg"
                   className="img-fluid rounded-3"
@@ -24,7 +24,7 @@ const Home = () => {
             </div>
             <div class="col-6">
               <div class="d-flex flex-wrap gap-10 justify-content-between align-items-center">
-                <div class="small-banner position-relative">
+                <div class="small-banner position-relative  p-3">
                   <img
                     src="images/catbanner-01.jpg"
                     className="img-fluid rounded-3"
@@ -38,7 +38,7 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div class="small-banner position-relative">
+                <div class="small-banner position-relative  p-3">
                   <img
                     src="images/catbanner-02.jpg"
                     className="img-fluid rounded-3"
@@ -52,7 +52,7 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div class="small-banner position-relative">
+                <div class="small-banner position-relative  p-3">
                   <img
                     src="images/catbanner-03.jpg"
                     className="img-fluid rounded-3"
@@ -66,7 +66,7 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div class="small-banner position-relative">
+                <div class="small-banner position-relative  p-3">
                   <img
                     src="images/catbanner-04.jpg"
                     className="img-fluid rounded-3"

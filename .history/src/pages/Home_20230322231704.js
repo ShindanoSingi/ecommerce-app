@@ -23,7 +23,7 @@ const Home = () => {
               </div>
             </div>
             <div class="col-6">
-              <div class="d-flex flex-wrap gap-10 justify-content-between align-items-center">
+              <div class="d-flex flex-wrap gap-12 justify-content-between align-items-center">
                 <div class="small-banner position-relative">
                   <img
                     src="images/catbanner-01.jpg"
