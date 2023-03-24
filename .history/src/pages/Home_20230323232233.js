@@ -1,6 +1,6 @@
 import React from "react";
-import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
+import Marquee from "react-fast-marquee";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
             <div class="col-6">
               <div class="main-banner position-relative">
                 <img
-                  src="images/main-banner-1.png"
+                  src="images/main-banner-1.jpg"
                   className="img-fluid rounded-3"
                   alt="main-banner"
                 />
@@ -27,7 +27,7 @@ const Home = () => {
               <div class="d-flex flex-wrap gap-10 justify-content-between align-items-center">
                 <div class="small-banner position-relative">
                   <img
-                    src="images/catbanner-01.png"
+                    src="images/catbanner-01.jpg"
                     className="img-fluid rounded-3"
                     alt="catbanner"
                   />
@@ -41,7 +41,7 @@ const Home = () => {
                 </div>
                 <div class="small-banner position-relative">
                   <img
-                    src="images/catbanner-02.png"
+                    src="images/catbanner-02.jpg"
                     className="img-fluid rounded-3"
                     alt="catbanner"
                   />
@@ -55,7 +55,7 @@ const Home = () => {
                 </div>
                 <div class="small-banner position-relative">
                   <img
-                    src="images/catbanner-03.png"
+                    src="images/catbanner-03.jpg"
                     className="img-fluid rounded-3"
                     alt="catbanner"
                   />
@@ -69,7 +69,7 @@ const Home = () => {
                 </div>
                 <div class="small-banner position-relative">
                   <img
-                    src="images/catbanner-04.png"
+                    src="images/catbanner-04.jpg"
                     className="img-fluid rounded-3"
                     alt="catbanner"
                   />
@@ -197,42 +197,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section class="marque-wrapper p-5">
-        <div class="container-xxl">
-          <div class="row">
-            <div class="col-12">
-              <div class="marquee-inner-wrapper card-wrapper">
-                <Marquee className="d-flex">
-                  <div className="mx-4 w-25">
-                    <img src="images/brand-01.png" alt="brand" />
-                  </div>
-                  <div className="mx-4 w-25">
-                    <img src="images/brand-02.png" alt="brand" />
-                  </div>
-                  <div className="mx-4 w-25">
-                    <img src="images/brand-03.png" alt="brand" />
-                  </div>
-                  <div className="mx-4 w-25">
-                    <img src="images/brand-04.png" alt="brand" />
-                  </div>
-                  <div className="mx-4 w-25">
-                    <img src="images/brand-05.png" alt="brand" />
-                  </div>
-                  <div className="mx-4 w-25">
-                    <img src="images/brand-06.png" alt="brand" />
-                  </div>
-                  <div className="mx-4 w-25">
-                    <img src="images/brand-07.png" alt="brand" />
-                  </div>
-                  <div className="card">
-                    <img src="images/brand-08.png" alt="brand" />
-                  </div>
-                </Marquee>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      section.marque-wrapper
     </>
   )
 }
