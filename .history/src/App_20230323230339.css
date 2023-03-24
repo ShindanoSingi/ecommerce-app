@@ -204,12 +204,7 @@ footer .input-group-text {
 }
 
 .categories > div {
-  width: 25%;
-  padding: 10px 10px 10px 20px;
-}
-
-.categories > div > div {
-  width: 60%;
+  width: 24%;
 }
 
 .categories > div:nth-child(1),
@@ -222,12 +217,6 @@ footer .input-group-text {
 .categories > div:nth-child(1),
 .categories > div:nth-child(2),
 .categories > div:nth-child(3) {
-  border-right: 1px solid var(--color-ededed);
-}
-
-.categories > div:nth-child(5),
-.categories > div:nth-child(6),
-.categories > div:nth-child(7) {
   border-right: 1px solid var(--color-ededed);
 }
 

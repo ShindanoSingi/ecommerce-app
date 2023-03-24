@@ -135,7 +135,7 @@ const Home = () => {
           <div className="row">
             <div className="col-12">
               <div className="categories d-flex flex-wrap justify-content-between align-items-center">
-                <div class="d-flex gap align-items-center">
+                <div class="d-flex gap-30 align-items-center">
                   <div>
                     <h6>Music & Game</h6>
                     <p>10 Items</p>
@@ -159,7 +159,7 @@ const Home = () => {
                 <div class="d-flex gap align-items-center">
                   <div>
                     <h6>Smart Watches</h6>
-                    <p>10 Items</p>
+                    <p>8 Items</p>
                   </div>
                   <img src="images/headphone.jpg" alt="camera" />
                 </div>
