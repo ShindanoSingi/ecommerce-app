@@ -207,17 +207,14 @@ footer .input-group-text {
   width: 24%;
 }
 
-.categories > div: nth-child(1),
-.categories > div: nth-child(2),
-.categories > div: nth-child(3),
-.categories > div: nth-child(4) {
+.categories>div: nth-child(1),
+.categories>div: nth-child(2),
+.categories>div: nth-child(3),
+.categories>div: nth-child(4) {
+  background-color: red;
+  position: absolute;
+  top:50px;
   border-bottom: 1px solid var(--color-ededed);
-}
-
-.categories > div: nth-child(1),
-.categories > div: nth-child(2),
-.categories > div: nth-child(3) {
-  border-right: 1px solid var(--color-ededed);
 }
 /* Categories section ends here */
 /* Home Page Ends */ ;

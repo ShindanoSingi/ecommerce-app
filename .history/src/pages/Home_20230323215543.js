@@ -134,7 +134,7 @@ const Home = () => {
         <div class="container-xxl">
           <div className="row">
             <div className="col-12">
-              <div className="categories d-flex flex-wrap justify-content-between align-items-center">
+              <div className="categories d-flex justify-content-between align-items-center">
                 <div class="d-flex gap-30 align-items-center">
                   <div>
                     <h6>Music & Game</h6>

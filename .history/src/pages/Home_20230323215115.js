@@ -134,14 +134,7 @@ const Home = () => {
         <div class="container-xxl">
           <div className="row">
             <div className="col-12">
-              <div className="categories d-flex flex-wrap justify-content-between align-items-center">
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Music & Game</h6>
-                    <p>10 Items</p>
-                  </div>
-                  <img src="images/camera.jpg" alt="camera" />
-                </div>
+              <div className="categories d-flex justify-content-between align-items-center">
                 <div class="d-flex gap-30 align-items-center">
                   <div>
                     <h6>Cameras</h6>
@@ -158,38 +151,17 @@ const Home = () => {
                 </div>
                 <div class="d-flex gap-30 align-items-center">
                   <div>
-                    <h6>Smart Watches</h6>
-                    <p>8 Items</p>
-                  </div>
-                  <img src="images/headphone.jpg" alt="camera" />
-                </div>
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Music & Game</h6>
+                    <h6>Categories</h6>
                     <p>10 Items</p>
                   </div>
                   <img src="images/camera.jpg" alt="camera" />
                 </div>
                 <div class="d-flex gap-30 align-items-center">
                   <div>
-                    <h6>Cameras</h6>
+                    <h6>Categories</h6>
                     <p>10 Items</p>
                   </div>
                   <img src="images/camera.jpg" alt="camera" />
-                </div>
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Smart Tv</h6>
-                    <p>10 Items</p>
-                  </div>
-                  <img src="images/tv.jpg" alt="camera" />
-                </div>
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Smart Watches</h6>
-                    <p>8 Items</p>
-                  </div>
-                  <img src="images/headphone.jpg" alt="camera" />
                 </div>
               </div>
             </div>

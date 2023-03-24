@@ -130,72 +130,16 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section class="home-wrapper py-5">
-        <div class="container-xxl">
-          <div className="row">
-            <div className="col-12">
-              <div className="categories d-flex flex-wrap justify-content-between align-items-center">
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Music & Game</h6>
-                    <p>10 Items</p>
-                  </div>
-                  <img src="images/camera.jpg" alt="camera" />
-                </div>
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Cameras</h6>
-                    <p>10 Items</p>
-                  </div>
-                  <img src="images/camera.jpg" alt="camera" />
-                </div>
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Smart Tv</h6>
-                    <p>10 Items</p>
-                  </div>
-                  <img src="images/tv.jpg" alt="camera" />
-                </div>
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Smart Watches</h6>
-                    <p>8 Items</p>
-                  </div>
-                  <img src="images/headphone.jpg" alt="camera" />
-                </div>
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Music & Game</h6>
-                    <p>10 Items</p>
-                  </div>
-                  <img src="images/camera.jpg" alt="camera" />
-                </div>
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Cameras</h6>
-                    <p>10 Items</p>
-                  </div>
-                  <img src="images/camera.jpg" alt="camera" />
-                </div>
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Smart Tv</h6>
-                    <p>10 Items</p>
-                  </div>
-                  <img src="images/tv.jpg" alt="camera" />
-                </div>
-                <div class="d-flex gap-30 align-items-center">
-                  <div>
-                    <h6>Smart Watches</h6>
-                    <p>8 Items</p>
-                  </div>
-                  <img src="images/headphone.jpg" alt="camera" />
-                </div>
-              </div>
+      <div class="home-wrapper PY-5">
+        <div class="container-xxl>
+         <div class="row">
+          <div class="col-12">
+            <div class="categories">
+              
             </div>
           </div>
-        </div>
-      </section>
+         </div>
+      </div>
     </>
   )
 }
