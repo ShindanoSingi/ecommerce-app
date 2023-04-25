@@ -1,6 +1,8 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
+import BlogCard from "../components/BlogCard";
+
 
 const Home = () => {
   return (
@@ -11,7 +13,7 @@ const Home = () => {
             <div class="col-6">
               <div class="main-banner position-relative">
                 <img
-                  src="images/main-banner-1.png"
+                  src="images/main-banner-1.jpg"
                   className="img-fluid rounded-3"
                   alt="main-banner"
                 />
@@ -27,7 +29,7 @@ const Home = () => {
               <div class="d-flex flex-wrap gap-10 justify-content-between align-items-center">
                 <div class="small-banner position-relative">
                   <img
-                    src="images/catbanner-01.png"
+                    src="images/catbanner-01.jpg"
                     className="img-fluid rounded-3"
                     alt="catbanner"
                   />
@@ -41,7 +43,7 @@ const Home = () => {
                 </div>
                 <div class="small-banner position-relative">
                   <img
-                    src="images/catbanner-02.png"
+                    src="images/catbanner-02.jpg"
                     className="img-fluid rounded-3"
                     alt="catbanner"
                   />
@@ -55,7 +57,7 @@ const Home = () => {
                 </div>
                 <div class="small-banner position-relative">
                   <img
-                    src="images/catbanner-03.png"
+                    src="images/catbanner-03.jpg"
                     className="img-fluid rounded-3"
                     alt="catbanner"
                   />
@@ -69,7 +71,7 @@ const Home = () => {
                 </div>
                 <div class="small-banner position-relative">
                   <img
-                    src="images/catbanner-04.png"
+                    src="images/catbanner-04.jpg"
                     className="img-fluid rounded-3"
                     alt="catbanner"
                   />
@@ -230,6 +232,16 @@ const Home = () => {
                 </Marquee>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="blog-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
           </div>
         </div>
       </section>

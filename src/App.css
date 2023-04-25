@@ -236,6 +236,15 @@ footer .input-group-text {
 .categories > div:nth-child(7) {
   border-right: 1px solid var(--color-ededed);
 }
-
 /* Categories section ends here */
 /* Home Page Ends */ ;
+
+/* Blog Part */
+
+.blog-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Blog Part Ends Here */
