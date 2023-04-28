@@ -343,12 +343,25 @@ footer .input-group-text {
   right: 5%;
 }
 
-img.my-watch{
+.my-watch{
   display: flex;
   padding: 50px 0;
-  width: 300px;
+  width: 270px;
   height: 269px;
   margin: auto;
 }
 
+.product-cards-container{
+  row-gap: 25px;
+}
+
 /* Product Card Ends here */
+
+/* Special Products  */
+.special-product-card{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* Special Products Ends here  */
